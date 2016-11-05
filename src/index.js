@@ -1,3 +1,4 @@
-console.log('Hey!');
+const Aliens = require('./aliens');
 
-const test = "test"
+const ET = new Aliens('ET');
+console.log(ET.blarb());
